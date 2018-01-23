@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "arcaro",
+  "name": "Arcane Aromatics",
+  "description": "A mod of Death and Smells",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Fancysaurus"],
+  "credits": "Vazkii for helping me to learn how to shitpo... err.. mod",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
