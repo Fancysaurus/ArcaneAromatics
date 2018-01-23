@@ -7,7 +7,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
 @Mod(modid = LibMisc.MOD_ID, version = LibMisc.VERSION)
@@ -20,7 +21,20 @@ public class ArcaneAromatics
     public static CommonProxy proxy;
 
     @EventHandler
+    public void preInit(FMLPreInitializationEvent event)
+    {
+        proxy.PreInit(event);
+    }
+
+    @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        proxy.Init(event);
+    }
+
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent event)
+    {
+        proxy.PostInit(event);
     }
 }
