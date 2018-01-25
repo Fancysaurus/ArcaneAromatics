@@ -1,0 +1,11 @@
+{
+
+  "defaults": {
+    "model": "arcaro:block/mod_kettle",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
