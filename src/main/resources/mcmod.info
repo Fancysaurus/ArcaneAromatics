@@ -1,7 +1,7 @@
 [
 {
   "modid": "arcaro",
-  "name": "Arcane Aromatics",
+  "name": "ArcaneAromatics",
   "description": "A mod of Death and Smells",
   "version": "${version}",
   "mcversion": "${mcversion}",

@@ -1,8 +1,7 @@
 {
-
+  "forge_marker": 1,
   "defaults": {
-    "model": "arcaro:block/mod_kettle",
-    "transform": "forge:default-block"
+    "model": "arcaro:kettle"
   },
   "variants": {
     "normal": [{}],

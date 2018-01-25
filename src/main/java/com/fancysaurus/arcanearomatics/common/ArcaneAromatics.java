@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
-@Mod(modid = LibMisc.MOD_ID, version = LibMisc.VERSION)
+@Mod(modid = LibMisc.MOD_ID, name = LibMisc.MOD_ID, version = LibMisc.VERSION)
 public class ArcaneAromatics
 {
     @Mod.Instance(LibMisc.MOD_ID)

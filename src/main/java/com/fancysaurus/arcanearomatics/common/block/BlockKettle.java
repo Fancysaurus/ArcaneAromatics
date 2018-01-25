@@ -15,6 +15,7 @@ public class BlockKettle extends BlockMod implements IArcAroBlock {
     public BlockKettle()
     {
         super("kettle", Material.ANVIL);
+
         setCreativeTab(CreativeTabs.BREWING);
     }
 }
