@@ -4,6 +4,7 @@ import com.fancysaurus.arcanearomatics.common.interf.IArcAroBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.ItemMeshDefinition;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.EnumRarity;
@@ -17,5 +18,10 @@ public class BlockKettle extends BlockMod implements IArcAroBlock {
         super("kettle", Material.ANVIL);
 
         setCreativeTab(CreativeTabs.BREWING);
+    }
+
+    @Override
+    public boolean isOpaqueCube(IBlockState state) {
+        return false;
     }
 }

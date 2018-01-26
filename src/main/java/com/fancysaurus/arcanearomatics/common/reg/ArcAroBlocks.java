@@ -1,4 +1,4 @@
-package com.fancysaurus.arcanearomatics.common.block.base;
+package com.fancysaurus.arcanearomatics.common.reg;
 
 import com.fancysaurus.arcanearomatics.common.block.BlockKettle;
 import com.fancysaurus.arcanearomatics.common.lib.LibMisc;
